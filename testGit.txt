@@ -4859,7 +4859,7 @@ In the following examples, and throughout most of this book, for the sake of
 brevity this book doesn’t have nicely-formatted messages like this; instead, we
 use the -m option to git commit. Do as we say, not as we do.
 Contributing to a Project
-167
+167rhrht
 Private Small Team
 The simplest setup you’re likely to encounter is a private project with one or
 two other developers. “Private,” in this context, means closed-source – not accessible
@@ -4877,7 +4877,7 @@ these examples to shorten them somewhat.)
 # John's Machine
 $ git clone john@githost:simplegit.git
 Initialized empty Git repository in /home/john/simplegit/.git/
-...
+...rhrth
 $ cd simplegit/
 $ vim lib/simplegit.rb
 $ git commit -am 'removed invalid default value'
@@ -4888,7 +4888,7 @@ and commits a change:
 # Jessica's Machine
 $ git clone jessica@githost:simplegit.git
 Initialized empty Git repository in /home/jessica/simplegit/.git/
-...
+...rhrthrth
 $ cd simplegit/
 $ vim TODO
 $ git commit -am 'add reset task'
@@ -4899,7 +4899,7 @@ Now, Jessica pushes her work up to the server:
 $ git push origin master
 CHAPTER 5: Распределенный Git
 168
-...
+...hrtyhrt
 To jessica@githost:simplegit.git
 1edee6b..fbff5bc master -> master
 John tries to push his change up, too:
